@@ -1,0 +1,23 @@
+= Apache Camel Básico
+
+== Versiones
+
+* Java 21
+* Gradle con plugin Shadow (UberJAR)
+* Apache Camel 4.10.6
+* Simple Logging Facade for Java (SLF4J) v2.0.17
+* Java Logging API (java.util.logging)
+
+== Cómo usar
+
+. Generar UberJAR
+. En la carpeta del uber JAR crear carpetas data/inbox y data/outbox
+. Ejecutar el jar con comando: java -jar app-all.jar
+. Ir colocando archivos en la carpeta data/inbox
+.. Debiese aparece la ruta absoluta del archivo en el logging
+.. Debiese copiarse el archivo a la carpeta data/outbox
+
+
+
+
+
