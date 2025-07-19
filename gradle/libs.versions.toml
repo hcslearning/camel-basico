@@ -1,0 +1,10 @@
+[versions]
+junit-jupiter = "5.11.3"
+camel = "4.10.6"
+slf4j = "2.0.17"
+
+[libraries]
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+apache-camel-core = { module = "org.apache.camel:camel-core", version.ref = "camel"}
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+slf4j-jdk = { module = "org.slf4j:slf4j-jdk14", version.ref = "slf4j" }
